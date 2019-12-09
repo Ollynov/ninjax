@@ -45,7 +45,7 @@ The fact that setting up a 'boilerplate' app is still an issue:
 
 ## What are the requirements for a Booster? 
 
-- Each booster is specifically designed to work with one particular starter. 
+### Each booster is specifically designed to work with one particular starter. 
 In many ways it does make sense to build starters would be able to apply to various starters, but we wanted to separate concerns and ensure reliable updates to boosters as the core dependencies and starters they work for update. As a result, two boosters may be very similar- but the benefit is that if one particular one becomes out dated, it does not necessarily mean that the other one will as well.  
 
 
