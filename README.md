@@ -20,5 +20,13 @@ Code (javascript) --> NPM modules (bcrypt) --> Frameworks (react/express) --> Ni
 
 ## What is a "booster"? 
 
-## What are the core philosophies of MPM and how is it different? 
+## What are the core philosophies of MPM and how is it different?
+
+## Inspiration
+
+One of the initial points of inspiration for NinjaX is simple- the world of open source code continues to get more advanced but the documentation does not. Usually open source projects are started and maintained by the world's smartest and most passionate developers, but usually the same passion and dedication does not extend onto the documenation. 
+
+The second point of inspiration came from another frustration- when trying to customize certain node modules for projects in the past- this may involve trying to understand minimized code, understanding licensing, and individually copying and pasting portions of the source code into new project files. Node modules are meant to work in an "out of the box" way, and that's perfectly fine, but there is another important use case that NinjaX solves. 
+
+
 
