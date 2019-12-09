@@ -21,7 +21,11 @@ Least abstracted --------- > Most abstracted
 
 A starter pack is a boilerplate for a full stack app. It is a repo with the most simple integration of of a popular tech stack. You can get it running with just one command `ninja init` after you have cloned the git repo, and downloaded the global NinjaX command line tool. For example, after git cloning the `ninja-starter-MERN`(link) starter, you run `npm install` and then `ninja init` and you can view your app at localhost:8000 (link). 
 
-It is very similar to "Create React App" in the sense that you run one command and you have a have a small app ready to go running on your localhost. However, it is one abstraction above because each Starter Pack also comes with additional requirements such as proper state management, and and a setup for 3 dev environments. This is very much a "reverse" approach to what is typical. Normally boilerplates offer only the basics because of the 'flexibility' that it offers developers. However, one of the founding principles of NinjaX is the learning[link] that it allows developers, and we believe that having the most simple, yet correct, implementation of different verticles of a fullstack app will allow developers to more efficiently learn, therefore freeing up more time for them to create useful apps, more time for them to submit their own boosters, to write useful documentation, which in turn will open the entire dev community and allow for greater app production. As for "flexibility", it is always an option to simply remove portions which are not needed. For example, each starter comes with 3 dev environemnts set up. If you only want two of those environments, removing one should only take a couple minutes. 
+_We believe that NinjaX starters are hands down the best way to begin any new project- whether a simple 'toy app' or the starter code to an enterprise level app._
+
+Starter packs are very similar to "Create React App" in the sense that you run one command and you have a have a small app ready to go running on your localhost. However, they are one abstraction above Create React App because each Starter Pack also comes with additional requirements such as proper state management, and and a setup for 3 dev environments. This is very much a "reverse" approach to what is typical. Normally boilerplates offer only the basics because of the 'flexibility' that it offers developers. However, one of the founding principles of NinjaX is the learning[link] that it allows developers, and we believe that having the most simple, yet correct, implementation of different verticles of a fullstack app will allow developers to more efficiently learn, therefore freeing up more time for them to create useful apps, more time for them to submit their own boosters, to write useful documentation, which in turn will open the entire dev community and allow for greater app production. As for "flexibility", it is always an option to simply remove portions which are not needed. For example, each starter comes with 3 dev environemnts set up. If you only want two of those environments, removing one should only take a couple minutes. 
+
+NinjaX is truly open source, but it is more 'strict' in the sense that there are a number of criteria that must be passed before pull requests can be accepted. This is true for boosters as well, but particularly strict for starter packs. 
 
 
 
@@ -45,6 +49,11 @@ The rise of the #noCode movement:
 
 The fact that setting up a 'boilerplate' app is still an issue:
 
+
+
+Some more nuanced philosophies we believe in: 
+- No acronnyms (link)
+
 ## What is the mission of NinjaX? 
 
 Allowing developers to both learn faster, and code more efficiently; ultimately leading to a greater growth of apps that make the world a better place. 
@@ -53,6 +62,8 @@ Allowing developers to both learn faster, and code more efficiently; ultimately 
 ## What are the requirements for a Starter Pack? 
 
 - README must be udpated with each update of code. 
+- Never more than one implementation of the same just for the sake of showing two options. 
+- Obsession with only the most simple implementation. 
 
 ## What are the requirements for a Booster? 
 
