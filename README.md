@@ -12,11 +12,13 @@ It is possible to use NinjaX components without the command line tool, but it is
 
 The NinjaX development process begins by downloading a "starter pack", and later adding boosters into your repo, which are specifically designed for that particular starter pack. As you develop, you are also free to add npm packages alongside your NinjaX boosters, as they are not the same thing, and virtually every app should have both. On a "scale of abstraction" you can imagine it like this: 
 
-Code (javascript) --> NPM modules (bcrypt) --> Frameworks (react/express) --> NinjaX Starter Packs --> NinjaX Boosters --> "No Code" Frameworks (webflow/ wordpress)
+Code (javascript) --> NPM modules (bcrypt) --> Frameworks (react/express) --> --> Create React App --> NinjaX Starter Packs --> NinjaX Boosters --> "No Code" Frameworks (webflow/ wordpress)
 
 
 
 ## What is a "starter pack"? 
+
+A starter pack is a boilerplate for a full stack app. It is very similar to "Create React App" in the sense that you run one command and you have a have a small app ready to go running on your localhost. However, it is one abstraction above because each Starter Pack also comes with additional requirements such as proper state management, and and a setup for 3 dev environments. This is very much a "reverse" approach to what is typical. Normally boilerplates offer only the basics because of the 'flexibility' that it offers developers. However, one of the founding principles of NinjaX is the learning[link] that it allows developers, and we believe that having the most simple, yet correct, implementation of different verticles of a fullstack app will allow developers to more efficiently learn, therefore freeing up more time for them to create useful apps, more time for them to submit their own boosters, to write useful documentation, which in turn will open the entire dev community and allow for greater app production. 
 
 ## What is a "booster"? 
 
@@ -38,6 +40,10 @@ The rise of the #noCode movement:
 
 The fact that setting up a 'boilerplate' app is still an issue:
 
+## What is the mission of NinjaX? 
+
+Allowing developers to both learn faster, and code more efficiently; ultimately leading to a greater growth of apps that make the world a better place. 
+
 
 ## What are the requirements for a Starter Pack? 
 
@@ -49,16 +55,17 @@ The fact that setting up a 'boilerplate' app is still an issue:
 ##### Each booster needs a starter, is specifically designed to work with one particular starter. 
 In many ways it does make sense to build starters would be able to apply to various starters, but we wanted to separate concerns and ensure reliable updates to boosters as the core dependencies and starters they work for update. As a result, two boosters may be very similar- but the benefit is that if one particular one becomes out dated, it does not necessarily mean that the other one will as well.  
 
-##### Each booster is designated either as a normal booster or a "standalone booster". 
-A standalone booster is composed  
 
-##### Each standalone booster has it's own route. 
+##### Each booster is designated either as a normal booster or a "standalone booster". 
 A standalone booster requires it's own route, and is usually composed of multiple other boosters. The auth-mern booster is an example of a standalone booster. When you add it to your MERN starter, it will automatically create the '/auth/signup' route where you can view your standalone booster. This particular standalone booster is already composed of multiple other node modules and boosters. You can also add additional boosters to this standalone booster, such as the 'google-auth-mern' booster. Which brings us to the next requirement... 
 
 
 ##### Certain boosters require both a starter, and another booster as well. 
 The 'google-auth-mern' booster requires the standalone 'auth-mern' booster to work. The downside to this requirement is that it will be impossible to ever use boosters to create a NinjaX MERN app with google authentication, but not with standard authentication (using just email and password). However, we think it will be rare that users will need this, and the upside of clarity, and perfect integration far outweigh the downsides. Furthermore, you can always customize your components as you see fit- for example you can simply comment out the ability for a user to enter in an email and password. 
 
+
+##### Each booster requires a README on the same level of the code
+Each booster requires a README that is clear and provides enough information to the user on how they can correctly get the booster integrated, and how they can further customize it. We also highly recommend that the code comes with comments in the actual source code of the file as well. 
 
 
 
