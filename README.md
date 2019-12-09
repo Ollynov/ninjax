@@ -25,8 +25,7 @@ _We believe that NinjaX starters are hands down the best way to begin any new pr
 
 Starter packs are very similar to "Create React App" in the sense that you run one command and you have a have a small app ready to go running on your localhost. However, they are one abstraction above Create React App because each Starter Pack also comes with additional requirements such as proper state management, and and a setup for 3 dev environments. This is very much a "reverse" approach to what is typical. Normally boilerplates offer only the basics because of the 'flexibility' that it offers developers. However, one of the founding principles of NinjaX is the learning[link] that it allows developers, and we believe that having the most simple, yet correct, implementation of different verticles of a fullstack app will allow developers to more efficiently learn, therefore freeing up more time for them to create useful apps, more time for them to submit their own boosters, to write useful documentation, which in turn will open the entire dev community and allow for greater app production. As for "flexibility", it is always an option to simply remove portions which are not needed. For example, each starter comes with 3 dev environemnts set up. If you only want two of those environments, removing one should only take a couple minutes. 
 
-NinjaX is truly open source, but it is more 'strict' in the sense that there are a number of criteria that must be passed before pull requests can be accepted. This is true for boosters as well, but particularly strict for starter packs. 
-
+NinjaX is truly open source, but it is more 'strict' in the sense that there are a number of criteria that must be passed before pull requests can be accepted. This is true for boosters as well, but the "criteria for starter packs"(link) are particularly strict. 
 
 
 ## What is a "booster"? 
