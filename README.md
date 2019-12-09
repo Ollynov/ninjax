@@ -12,6 +12,7 @@ It is possible to use NinjaX components without the command line tool, but it is
 
 The NinjaX development process begins by downloading a "starter pack", and later adding boosters into your repo, which are specifically designed for that particular starter pack. As you develop, you are also free to add npm packages alongside your NinjaX boosters, as they are not the same thing, and virtually every app should have both. On a "scale of abstraction" you can imagine it like this: 
 
+Code (javascript) --> NPM modules (bcrypt) --> Frameworks (react/express) --> NinjaX Starter Packs --> NinjaX Boosters --> "No Code" Frameworks (webflow/ wordpress)
 
 
 
