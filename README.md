@@ -49,8 +49,10 @@ The fact that setting up a 'boilerplate' app is still an issue:
 ##### Each booster needs a starter, is specifically designed to work with one particular starter. 
 In many ways it does make sense to build starters would be able to apply to various starters, but we wanted to separate concerns and ensure reliable updates to boosters as the core dependencies and starters they work for update. As a result, two boosters may be very similar- but the benefit is that if one particular one becomes out dated, it does not necessarily mean that the other one will as well.  
 
-
 ##### Each booster is designated either as a normal booster or a "standalone booster". 
+A standalone booster is composed  
+
+##### Each standalone booster has it's own route. 
 A standalone booster requires it's own route, and is usually composed of multiple other boosters. The auth-mern booster is an example of a standalone booster. When you add it to your MERN starter, it will automatically create the '/auth/signup' route where you can view your standalone booster. This particular standalone booster is already composed of multiple other node modules and boosters. You can also add additional boosters to this standalone booster, such as the 'google-auth-mern' booster. Which brings us to the next requirement... 
 
 
