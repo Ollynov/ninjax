@@ -1,0 +1,19 @@
+{
+  "name": "ninjax",
+  "version": "1.0.0",
+  "description": "NinjaX top-level repo with description and links to most common starter packs and boosters. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ollynov/ninjax.git"
+  },
+  "author": "yoshcode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ollynov/ninjax/issues"
+  },
+  "homepage": "https://github.com/Ollynov/ninjax#readme"
+}
