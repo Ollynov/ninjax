@@ -12,3 +12,7 @@
 
 - Still undecided here, needs some thought. 
 - Could give rise to some potential business models.
+
+## In the future can create "Ninjax Library" which would be alternative to npm.
+
+- One of the benefits here is that you can more clearly distinguish 'official' starters and boosters from the open community ones. 
