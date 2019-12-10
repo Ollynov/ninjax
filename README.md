@@ -16,6 +16,17 @@ Least abstracted --------- > Most abstracted
 
 Both NinjaX starter packs and boosters are open source, meaning that anyone can either submit a request to create a new one, or submit pull requests to improve existing ones. However, there is an approval process when it comes to approving a starter or booster as an 'official' booster. 
 
+# Let's see an example
+
+Here is the `Ninja-Starter-React/NextJS/Serverless/Firebase` deployed site. After following all instructions in the config(link) you should be able to clone the source code and have the app both running locally with one script `ninja run local` and deployed with `now`.
+
+# Getting Started
+
+1. Download the NinjaX cli tool with `npm install ninjax`
+2. Find a starter pack you would like to start with. Here is a common one: `Ninjax-Starter-MERN`
+3. Follow config instructions for your particular starter(link)
+4. Play around with site on your local environment and explore the code to understand all of the features, and confirm it is working.
+5. Add your first booster. Here are the boosters avaialble for the above `Ninjax-Starter-MERN`
 
 # What is a "starter pack"? 
 
