@@ -1,6 +1,4 @@
-# mpm
-
-## What is NinjaX? 
+# What is NinjaX? 
 
 There are two parts to NinjaX:
 
@@ -17,7 +15,7 @@ Code (javascript) --> NPM modules (bcrypt) --> Frameworks (react/express) --> Bo
 Least abstracted --------- > Most abstracted
 
 
-## What is a "starter pack"? 
+# What is a "starter pack"? 
 
 A starter pack is a boilerplate for a full stack app. It is a repo with the most simple integration of of a popular tech stack. You can get it running with just one command `ninja init` after you have cloned the git repo, and downloaded the global NinjaX command line tool. For example, after git cloning the `ninja-starter-MERN`(link) starter, you run `npm install` and then `ninja init` and you can view your app at localhost:8000 (link). 
 
@@ -28,9 +26,9 @@ Starter packs are very similar to "Create React App" in the sense that you run o
 NinjaX is truly open source, but it is more 'strict' in the sense that there are a number of criteria that must be passed before pull requests can be accepted. This is true for boosters as well, but the "criteria for starter packs"(link) are particularly strict. 
 
 
-## What is a "booster"? 
+# What is a "booster"? 
 
-## What is the inspiration for NinjaX and how is it different?
+# What is the inspiration for NinjaX and how is it different?
 
 Better documentation: 
 One of the initial points of inspiration for NinjaX is simple- the world of open source code continues to get more advanced but the documentation does not. Usually open source projects are started and maintained by the world's smartest and most passionate developers, but usually the same passion and dedication does not extend onto the documenation. 
@@ -56,18 +54,18 @@ Some more nuanced philosophies we believe in:
 Some previous projects that served as inspiration:
 - ROR. No other coding language has a library that is the clear 'go to' framework. In fact, one of the entire benefits of the ruby coding language is that it comes with this complete Rails library. 
 
-## What is the mission of NinjaX? 
+# What is the mission of NinjaX? 
 
 Allowing developers to both learn faster, and code more efficiently; ultimately leading to a greater growth of apps that make the world a better place. 
 
 
-## What are the requirements for a Starter Pack? 
+# What are the requirements for a Starter Pack? 
 
 - README must be udpated with each update of code. 
 - Never more than one implementation of the same just for the sake of showing two options. 
 - Obsession with only the most simple implementation. 
 
-## What are the requirements for a Booster? 
+# What are the requirements for a Booster? 
 
 
 ##### Each booster needs a starter, is specifically designed to work with one particular starter. 
