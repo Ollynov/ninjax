@@ -53,6 +53,9 @@ The fact that setting up a 'boilerplate' app is still an issue:
 Some more nuanced philosophies we believe in: 
 - No acronnyms (link)
 
+Some previous projects that served as inspiration:
+- ROR. No other coding language has a library that is the clear 'go to' framework. In fact, one of the entire benefits of the ruby coding language is that it comes with this complete Rails library. 
+
 ## What is the mission of NinjaX? 
 
 Allowing developers to both learn faster, and code more efficiently; ultimately leading to a greater growth of apps that make the world a better place. 
