@@ -32,6 +32,16 @@ NinjaX is truly open source, but it is more 'strict' in the sense that there are
 
 # What is a "booster"? 
 
+Boosters are add on components for your starter packs. They can range from something as small as a button, to an entire standalone signup and login page, which takes advantage of multiple other boosters. 
+
+Small boosters, such as buttons, are virtually the same as individual components from libraries such as Material UI. Medium sized boosters, such as a feedback module that also includes an animation, can be seen as code snippets from CodePen.io. And finally, larger boosters, such as the signup and login page, can be viewed as entire projects from github.
+
+There are two key differences from the comparisons to Material UI components, code snippets from coderpen, and other github projects. 
+1. Each booster is specifically created for a starter pack, and therefore automatically integrates into your code. 
+2. Each booster directly injects its source code into your app, rather than hidden in node-modules (such as a Material UI button would be for example)
+
+
+
 # What is the inspiration for NinjaX and how is it different?
 
 Better documentation: 
@@ -65,6 +75,16 @@ Allowing developers to both learn faster, and code more efficiently; ultimately 
 
 # What are the requirements for a Starter Pack? 
 
+##### Styling integration with one of the following: Pug, Less, Sass
+##### State management
+##### 3 dev environments
+##### `single script deployment` 
+##### basic testing
+##### routing
+##### authentication
+##### database connection to local db
+
+
 ##### README must be udpated with each update of code. 
 
 
@@ -83,6 +103,9 @@ If there's more than one way to perform a 'read' of a mongo database, that is fi
 Here is an example: `ninja-starter-MERN`
 
 # What are the requirements for a Booster? 
+
+##### Styled boosters need to accept a 'theme' prop
+##### 
 
 
 ##### Each booster needs a starter, is specifically designed to work with one particular starter. 

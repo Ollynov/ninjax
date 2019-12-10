@@ -18,3 +18,7 @@
 - One of the benefits here is that you can more clearly distinguish 'official' starters and boosters from the open community ones. 
 
 ## Get logo made on Fiver
+
+## Consider removing the example of 'smaller' boosters such as buttons
+
+- This really isn't the most common use case. There may be sometimes that we have smaller boosters such as buttons, but that's really not the point. So perhaps not even worth mentioning because it may confuse people. 
