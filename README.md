@@ -59,14 +59,14 @@ Better documentation:
 One of the initial points of inspiration for NinjaX is simple- the world of open source code continues to get more advanced but the documentation does not. Usually open source projects are started and maintained by the world's smartest and most passionate developers, but usually the same passion and dedication does not extend onto the documenation. Typically it's an afterthought... but we believe that solid documentation is as important as solid code in the first place.
 
 Customizing Node Modules:
-The second point of inspiration came from another frustration- when trying to customize certain node modules for projects in the past- this may involve trying to understand minimized code, understanding licensing, and individually copying and pasting portions of the source code into new project files. Node modules are meant to work in an "out of the box" way, and that's perfectly fine, but there is another important use case that NinjaX solves. 
+The second point of inspiration came from another frustration. Most developers have had times when they have had to go in and actually edit the source code of a dependency, so it can specifically work for their use case. This is never easy, and can involve trying to understand minimized code, understanding licensing, and individually copying and pasting portions of the source code into new project files. Node modules are meant to work in an "out of the box" way, and that's perfectly fine, but there is another important use case that NinjaX solves. 
 
 Learning:
 In the past 5 years learning has become incredibly "open source": There are free youtube videos that range from individuals teaching out of their bedrooms, to 
 MIT professors delivering lectures to an audience. One vertical where this has had the most impact in has been coding- an industry that changes so rapidly that it oftentimes 'outgrows' the traditional college system of academia, and there are now more 'self taught' developers than ever before. As a result there are plenty of tutorials for new developers and bootcamp graduates on the fundamentals, but not as many good resources when it comes to the "nitty gritty" of setting up an app the correct way. The 'correct way' includes areas such as authentication, deployment, scalability, etc. Of course, one of the main skills of a seasoned programmer is to be resourceful and use Stackoverflow and the community to quickly learn. That will always stay true; however, we believe that the learning process can be sped up when the resources are presented direclty inside of your codebase, and continually updated with each new release.
 
 The rise of the #noCode movement:
-
+It's not unlikely that the in the next 5 or 10 years the next billion dollar company could have originally started with a completely 'no-code' app base. One can interpret NinjaX as the webflow(link) for developers. Giving you out of the box features just like webflow, to help develop much faster, but 100% in pure code format, so that the developer has 100% flexibility over their codebase at the end of the day.
 
 
 The fact that setting up a 'boilerplate' app is still an issue:
