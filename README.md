@@ -78,7 +78,7 @@ Allowing developers to both learn faster, and code more efficiently; ultimately 
 ##### Styling integration with one of the following: Pug, Less, Sass
 ##### State management
 ##### 3 dev environments
-##### `single script deployment` 
+##### `single script1 deployment
 ##### basic testing
 ##### routing
 ##### authentication
