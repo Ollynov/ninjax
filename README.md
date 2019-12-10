@@ -4,9 +4,9 @@ There are two parts to NinjaX:
 
 1. A library of pre-built code components that help you build apps faster. The library is open source and supported through a community, but has a pre-defined criteria for submitting new components. 
 
-2. A command line tool that injects these pre-built components directly into your app (called boosters). This is similar to npm, but instead of delivering pre-packaged components that are ready to use via `imports` (and hidden in node-modules folder), Ninjax injects the full source code directly into your app, so you can more easily customize it and understand how it is integrated.
+2. A command line tool that injects these pre-built components (called boosters) directly into your app. This is similar to npm, but instead of delivering pre-packaged components that are ready to use via `imports` (and hidden in node-modules folder), Ninjax injects the full source code directly into your app, so you can more easily customize it and understand how it is integrated.
 
-It is possible to use NinjaX components (boosters) without the command line tool, but it is not possible to use to command line tool on a repo that is not specifically a NinjaX repo. In other words you can use #1 without #2, but not #2 without #1. However, we recommend using both, as the command line tool helps set up your NinjaX repo correctly, and integrates your boosters into your app. 
+It is possible to use NinjaX components (boosters) without the command line tool, but it is not possible to use to command line tool on a repo that is not specifically a NinjaX repo. In other words you can use #1 without #2, but not #2 without #1. However, we recommend using both, as the command line tool helps you set up your initial NinjaX repo correctly, and integrates your boosters into your app. 
 
 The NinjaX development process begins by downloading a "starter pack"(link), and later adding boosters(link) into your repo, which are specifically designed for that particular starter pack. As you develop, you are also free to add npm packages alongside your NinjaX boosters, as they are not the same thing, and virtually every app should have both. On a "scale of abstraction" you can imagine it like this: 
 
@@ -14,10 +14,14 @@ Code (javascript) --> NPM modules (bcrypt) --> Frameworks (react/express) --> Bo
 
 Least abstracted --------- > Most abstracted
 
+Both NinjaX starter packs and boosters are open source, meaning that anyone can either submit a request to create a new one, or submit pull requests to improve existing ones. However, there is an approval process when it comes to approving a starter or booster as an 'official' booster. 
+
 
 # What is a "starter pack"? 
 
-A starter pack is a boilerplate for a full stack app. It is a repo with the most simple integration of of a popular tech stack. You can get it running with just one command `ninja init` after you have cloned the git repo, and downloaded the global NinjaX command line tool. For example, after git cloning the `ninja-starter-MERN`(link) starter, you run `npm install` and then `ninja init` and you can view your app at localhost:8000 (link). 
+A starter pack is a boilerplate for a full stack app. It is a repo with the most simple integration of of a popular tech stack. 
+
+You can get a starter pack running with just one command `ninja init` after you have cloned the git repo, and downloaded the global NinjaX command line tool. For example, after git cloning the `ninja-starter-MERN`(link) starter, you run `npm install` and then `ninja init` and you can view your app at localhost:8000 (link). 
 
 _We believe that NinjaX starters are hands down the best way to begin any new project- whether a simple 'toy app' or the starter code to an enterprise level app._
 
@@ -61,13 +65,22 @@ Allowing developers to both learn faster, and code more efficiently; ultimately 
 
 # What are the requirements for a Starter Pack? 
 
-- README must be udpated with each update of code. 
-- Never more than one implementation of the same just for the sake of showing two options. 
-- Obsession with only the most simple implementation. 
-- A clear README with overview the following: 
--- A list of default boosters that already come included in the starter pack
--- A list of recommended boosters for this particular starter pack
--- A complete list of all approved default components
+##### README must be udpated with each update of code. 
+
+
+##### Obsession with only the most simple implementation. 
+This particular requirement is more subjective, but essentially, starters should avoid more advanced features if it is not something that the majority of apps will have a use case for. We include state management as a requirement in our starters because we figure that the majority of real world apps will benefit from having state management. If it's not something that over 50% of apps would eventually benefit from having, then it shouldn't be included in a starter pack.
+
+##### Never more than one implementation of the same just for the sake of showing two options. 
+If there's more than one way to perform a 'read' of a mongo database, that is fine, but only the most simple and optimal one should be included in the starter. There should never be more than one way to accomplish something, just for the sake of having more than one way, and in the case there are multiple ways to accomplish something similar (but indeed slightly different) then these additional methods should be included as boosters, not the starter packs.
+
+##### A clear README with overview the following: 
+- A list of default boosters that already come included in the starter pack
+- A list of official/recommended boosters for this particular starter pack
+- A complete list of all approved default components
+
+##### Must use the naming convention of `ninjax-starter-[name of starter]`
+Here is an example: `ninja-starter-MERN`
 
 # What are the requirements for a Booster? 
 
