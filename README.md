@@ -6,7 +6,7 @@ There are two parts to NinjaX:
 
 2. A command line tool that injects these pre-built components (called boosters) directly into your app. This is similar to npm, but instead of delivering pre-packaged components that are ready to use via `imports` (and hidden in node-modules folder), Ninjax injects the full source code directly into your app, so you can more easily customize it and understand how it is integrated.
 
-It is possible to use NinjaX components (boosters) without the command line tool, but it is not possible to use to command line tool on a repo that is not specifically a NinjaX repo. In other words you can use #1 without #2, but not #2 without #1. However, we recommend using both, as the command line tool helps you set up your initial NinjaX repo correctly, and integrates your boosters into your app. 
+It is possible to use NinjaX components (boosters) without the command line tool, but it is not possible to use the command line tool on a repo that is not specifically a NinjaX repo. In other words you can use #1 without #2, but not #2 without #1. However, we recommend using both, as the command line tool helps you set up your initial NinjaX repo correctly, and integrates your boosters into your app. 
 
 The NinjaX development process begins by downloading a "starter pack"(link), and later adding boosters(link) into your repo, which are specifically designed for that particular starter pack. As you develop, you are also free to add npm packages alongside your NinjaX boosters, as they are not the same thing, and virtually every app should have both. On a "scale of abstraction" you can imagine it like this: 
 
@@ -67,6 +67,7 @@ Some more nuanced philosophies we believe in:
 
 Some previous projects that served as inspiration:
 - ROR. No other coding language has a library that is the clear 'go to' framework. In fact, one of the entire benefits of the ruby coding language is that it comes with this complete Rails library. 
+- Angular CLI. One command creates a new component that is hooked up and has testing integration. Adding a booster just takes this concept much further.
 
 # What is the mission of NinjaX? 
 
