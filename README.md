@@ -70,7 +70,7 @@ It's not unlikely that the in the next 5 or 10 years the next billion dollar com
 
 
 The fact that setting up a 'boilerplate' app is still an issue:
-
+There are thousands of boilerplates publicly available on the internet, but it is very hard to see which of them are reliable until you have already invested the time to download the repo, set it up, and thoroughly test it out. The process is so unreliable that we usually have found ourselves simply using repos from our own projects in the past. These work for the few stacks you already may have worked with prior, but they are not actively maintained, and we believe that a codebase maintained by the community will always be the best possible codebase.
 
 
 Some more nuanced philosophies we believe in: 
