@@ -4,7 +4,7 @@ There are two parts to NinjaX:
 
 1. A library of pre-built code components that help you build apps faster. The library is open source and supported through a community, but has a pre-defined criteria for submitting new components. 
 
-2. A command line tool that injects these pre-built components directly into your app (called boosters). This is similar to npm, but instead of delivering pre-packaged components that are ready to use (and hidden in node-modules folder), Ninjax injects the full source code directly into your app, so you can more easily customize it and understand how it is integrated.
+2. A command line tool that injects these pre-built components directly into your app (called boosters). This is similar to npm, but instead of delivering pre-packaged components that are ready to use via `imports` (and hidden in node-modules folder), Ninjax injects the full source code directly into your app, so you can more easily customize it and understand how it is integrated.
 
 It is possible to use NinjaX components (boosters) without the command line tool, but it is not possible to use to command line tool on a repo that is not specifically a NinjaX repo. In other words you can use #1 without #2, but not #2 without #1. However, we recommend using both, as the command line tool helps set up your NinjaX repo correctly, and integrates your boosters into your app. 
 
@@ -64,6 +64,10 @@ Allowing developers to both learn faster, and code more efficiently; ultimately 
 - README must be udpated with each update of code. 
 - Never more than one implementation of the same just for the sake of showing two options. 
 - Obsession with only the most simple implementation. 
+- A clear README with overview the following: 
+-- A list of default boosters that already come included in the starter pack
+-- A list of recommended boosters for this particular starter pack
+-- A complete list of all approved default components
 
 # What are the requirements for a Booster? 
 

@@ -7,3 +7,8 @@
 - The Core Supporters will be a way to get some eyeballs onto your framework in the early stages. These will be well known developers in the open source community who simply tweet or mention your framework a couple of times. Perhaps they can become part of the "org" on github and it will be on their profiles. They really don't have to do much other than support the cause, and they can also be a part of the core supporters by providing feedback and thoughs on how the readme is structured. Probably can even meet a lot of them over coffee in SF. Can be very frank and straightforward with them, even with the initial message sent to them. 
 - Core sponsors will be for the future when looking to make some money
 - Core Contributors will simply be the ones sending in the greatest amount of PRs (greatest contribution of starter packs and boosters)
+
+## Have some boosters and starters that are the official or 'recommended' ones
+
+- Still undecided here, needs some thought. 
+- Could give rise to some potential business models.
