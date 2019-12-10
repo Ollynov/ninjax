@@ -89,12 +89,13 @@ Allowing developers to both learn faster, and code more efficiently; ultimately 
 
 ##### Styling integration with one of the following: Pug, Less, Sass
 ##### State management
-##### 3 dev environments
-##### `single script1 deployment
-##### basic testing
+##### database connection to local db
 ##### routing
 ##### authentication
-##### database connection to local db
+##### basic testing
+##### 3 dev environments
+##### `single script1 deployment
+
 
 
 ##### README must be udpated with each update of code. 
@@ -103,7 +104,7 @@ Allowing developers to both learn faster, and code more efficiently; ultimately 
 ##### Obsession with only the most simple implementation. 
 This particular requirement is more subjective, but essentially, starters should avoid more advanced features if it is not something that the majority of apps will have a use case for. We include state management as a requirement in our starters because we figure that the majority of real world apps will benefit from having state management. If it's not something that over 50% of apps would eventually benefit from having, then it shouldn't be included in a starter pack.
 
-##### Never more than one implementation of the same just for the sake of showing two options. 
+##### Always only show _one_ optimal way of performing an action in the code
 If there's more than one way to perform a 'read' of a mongo database, that is fine, but only the most simple and optimal one should be included in the starter. There should never be more than one way to accomplish something, just for the sake of having more than one way, and in the case there are multiple ways to accomplish something similar (but indeed slightly different) then these additional methods should be included as boosters, not the starter packs.
 
 ##### A clear README with overview the following: 
