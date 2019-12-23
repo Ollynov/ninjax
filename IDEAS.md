@@ -22,3 +22,8 @@
 ## Consider removing the example of 'smaller' boosters such as buttons
 
 - This really isn't the most common use case. There may be sometimes that we have smaller boosters such as buttons, but that's really not the point. So perhaps not even worth mentioning because it may confuse people. 
+
+
+COLOR SCHEME: 
+blue rgb(43, 81, 231) on yellow rgb(236, 193, 21)
+yellow on gray #4b4b4b
